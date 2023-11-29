@@ -1,0 +1,58 @@
+{
+  "src/lib/components/CircularProgressBar.react.js": {
+    "description": "ExampleComponent is an example component.\r\nIt takes a property, `label`, and\r\ndisplays it.\r\nIt renders an input with the property `value`\r\nwhich is editable by the user.",
+    "displayName": "CircularProgressBar",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "value": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": "this value is for percentage"
+      },
+      "textColor": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": "this help to change text color"
+      },
+      "textSize": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": "this help to change text size"
+      },
+      "pathColor": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": "this help to change path color"
+      },
+      "trailColor": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": "this help to change color  trail"
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
+      }
+    }
+  }
+}
